@@ -8,12 +8,14 @@ relative_permalinks: true
 
 # Setup
 title:            Albin
+tagline:          'A collection of personal things that needed linking'
+description:      'A collection of personal things that needed linking.'
 url:              http://albinstjerna.se
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
-  url:            https://twitter.com/mdo
+  name:           'Albin Stjerna'
+  url:            https://twitter.com/albinst
 
 paginate:         5
 
