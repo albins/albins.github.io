@@ -12,7 +12,7 @@ Also, if they actually do eat your kitten, seek professional medical help for th
 
 ## Flashcards ##
 
-### [Computer Architecture (spring 2015) -- 144 cards](/resources/dark-2015-05-28.apkg) (Updated 2015-05-28!) ###
+### [Computer Architecture (spring 2015) -- 152 cards](/resources/dark-2015-06-02.apkg) (Updated 2015-06-02!) ###
 These are in Swinglish. Sorry about that, but it seems to be official language of the course. Images are from official lecture videos and hand-outs mainly, but I have tried to make use of previous exams, practice problems and my own personal experience. Examples involving calculations are intentionally made very simple, so as not to require a calculator.
 
 Help is, of course, very welcome.
