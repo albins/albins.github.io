@@ -12,6 +12,9 @@ Also, if they actually do eat your kitten, seek professional medical help for th
 
 ## Flashcards ##
 
+### [Linear Algebra I (autumn 2014)](/resources/linear-algebra-2015-05-13.apkg) ###
+In Swedish.
+
 ### [Computer Architecture (spring 2015) -- 152 cards](/resources/dark-2015-06-02.apkg) ###
 **Updated 2015-06-02!**
 
