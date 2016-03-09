@@ -21,3 +21,7 @@ In Swedish.
 These are in Swinglish. Sorry about that, but it seems to be official language of the course. Images are from official lecture videos and hand-outs mainly, but I have tried to make use of previous exams, practice problems and my own personal experience. Examples involving calculations are intentionally made very simple, so as not to require a calculator.
 
 Help is, of course, very welcome.
+
+### [Operating Systems and Process-Oriented Programming (spring 2016) -- 103 cards](/resources/ospp-2016-03-09.apkg) ###
+
+Not including Erlang, only some cards on virtual memory, and no cards at all on disks and file systems.
