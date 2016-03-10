@@ -22,6 +22,5 @@ These are in Swinglish. Sorry about that, but it seems to be official language o
 
 Help is, of course, very welcome.
 
-### [Operating Systems and Process-Oriented Programming (spring 2016) -- 103 cards](/resources/ospp-2016-03-09.apkg) ###
-
-Not including Erlang, only some cards on virtual memory, and no cards at all on disks and file systems.
+### [Operating Systems and Process-Oriented Programming (spring 2016) -- 103 cards](/resources/ospp-2016-03-10.apkg) ###
+**Updated 2016-06-10 to include cards on file systems and virtual memory**
