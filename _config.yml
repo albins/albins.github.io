@@ -1,6 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      pygments
+gems: [jekyll-paginate, jekyll-gist, jemoji]
 
 # Permalinks
 permalink:        pretty

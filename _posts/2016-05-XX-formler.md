@@ -1,0 +1,89 @@
+---
+layout: post
+title: Formler till Sannolikhet och Statistik DV, HT 2016
+---
+
+Det här är alltså tänkt att ~~vara~~bli formelbladet vi borde ha fått till Sannolikhet och statistik DV. Jag vet inte ens vad jag heter längre, men jag kan räkna på det.
+
+## Mängdaritmetik på slumpvariabler
+
+### Definitioner
+
+Alltså, jag vet fortfarande inte vad det är.
+
+### Komplement (\\( A^* \\))
+
+\\[ P(A^*) = 1 - P(A) \\]
+
+**Tips**: Eftersom summan av sannolikheter alltid är 1 enligt Kolmogorovs axiom gäller att allt _utom_ A (d.v.s. komplementet) måste vara 1 - A.
+
+### Union (\\( \cup \\))
+
+_Oavsett_ om A och B är oförenliga gäller:
+\\[ P(A \cup B) = P(A) + P(B) - P(A \cap B) \\]
+
+**Tips**: Tänk att sannolikheten för unionen av (_både_) A och B är sannolikheten för A, plus sannolikheten för B, minus utrymmet där de överlappar.
+
+Om händelserna A och B är _oförenliga_ gäller alltså:
+\\[ P(A \cup B) = P(A) + P(B) \\]
+
+**Tips**: Eftersom A och B är oförenliga är deras överlappning den tomma mängden (de är aldrig sanna samtidigt). Därför försvinner _alltid_ den sista termen i summan.
+
+### Snitt (\\( \cap \\))
+
+Om A och B är _oberoende_:
+\\[ P(A \cap B) = P(A) P(B) \\]
+
+### Betingad sannolikhet (\\( P(A\|B) \\))
+
+\\[ P(A\|B) = \frac{P(A \cap B)}{P(B)} \\]
+
+**Tips**: Läs ut den som "sannolikheten för A givet B är sannolikheten för både A och B, givet att (normerat på) vi vet att B redan har hänt".
+
+#### Bayes formel
+
+\\[ P(B \| A) = \frac{P(B)}{P(A)} P(A \|B) \\]
+
+## Fördelningsfunktioner och stokastiska variabler
+
+### Definitioner
+
+### Summor av stokastiska variabler
+
+### Produkter av stokastiska variabler
+
+## Väntevärde (\\( \mathbb{E} \\)) och varians (\\( \mathbb{V} \\))
+
+### Väntevärde och varians för summor och produkter
+
+## Saker man kan göra med stickprov
+
+### Medelvärde av stickprov (aritmetiskt medelvärde)
+\\[\bar{x} = \frac{1}{n} \Sigma_{i=1}^n x_i = \frac{1}{n} (x_1 + \ldots + x_n) \\]
+
+### Stickprovsvarians
+
+\\[s^2 = \frac{1}{n-1} \Sigma_{i=1}^n(x_i - \bar{x})^2 \\]
+
+Där \\( \bar{x} \\) är det aritmetiska medelvärdet av stickprovet.
+
+### Korrelationskoefficient
+
+
+### Skatta väntevärde och varians från stickprov
+
+## Processer
+
+### Definitioner
+
+### Sannolikheter från Poisson-processer
+
+:fish:
+
+En poisson-process är i princip en räknare över hur många gånger något har hänt (i en simulering) ("hur många asteroider (n) har vid tiden t träffat jorden?"). För att få ut sannolikheten för ett visst n (antal asteroider) vid en viss tid (t = 1239 sekunder från simulationens start), uppställd som \\( N(t) = n \\), använd följande formel (av Poisson-fördelningen):
+
+\\[ P(N(t) = n) = e^{-\lambda t} \frac{(\lambda t)^n}{n!} \\]
+
+**Tips**: Om du jämför med formeln för Po-fördelning ser du att väntevärdet är \\( \lambda t \\). Det beror på att λ är en _intensitet_ (732 träffade asteroider per sekund) och t är en tid. Antalet asteroider vi kan vänta oss efter t = 5 sekunder är m.a.o \\( 5 \cdot 732 \\) stycken!
+
+### Summor av Poisson-processer
