@@ -3,7 +3,7 @@ layout: post
 title: Shoebox Time Machine backup server with Raspberry Pi ("poor man's Time Capsule")
 ---
 
-![IKEA Kassett box with HDD sticking out, labelled "DATA"](resources/data_shoebox.jpg)
+![IKEA Kassett box with HDD sticking out, labelled "DATA"](/resources/data_shoebox.jpg)
 
 It is possible and fairly easy to build an acceptable Time Machine backup server using a Raspberry Pi and a spare USB drive. Basically, the process is as follows:
 
@@ -103,7 +103,7 @@ sudo systemctl enable netatalk
 
 After this, you should be able to find and select your shoebox server as a target in Time Machine. Now, go and make a _very big_ cup of tea as your computer runs its initial backup.
 
-![Time Machine: Backup Completed](resources/Time_machine_backup_completed.png)
+![Time Machine: Backup Completed](/resources/Time_machine_backup_completed.png)
 
 ## Sources
 - [https://gist.github.com/oscarcck/3135109](https://gist.github.com/oscarcck/3135109)
