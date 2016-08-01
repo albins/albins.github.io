@@ -49,7 +49,13 @@ You can follow [the official guide](http://netatalk.sourceforge.net/wiki/index.p
 First, see which version of tracker you got from apt-get: `pkg-config --list-all | grep tracker` and insert it after --with-tracker-pkgconfig-version in the proposed command. In my case, I got 1.0:
 
 ```sh
-./configure         --with-init-style=debian-systemd         --without-libevent        \     --without-tdb         --with-cracklib         --enable-krbV-uam        \ --with-pam-confdir=/etc/pam.d         --with-dbus-daemon=/usr/bin/dbus-daemon\         --with-dbus-sysconf-dir=/etc/dbus-1/system.d         --with-tracker-pkgconfig-version=1.0
+./configure --with-init-style=debian-systemd  \
+            --without-libevent  --without-tdb \
+            --with-cracklib --enable-krbV-uam \
+            --with-pam-confdir=/etc/pam.d     \
+            --with-dbus-daemon=/usr/bin/dbus-daemon \
+            --with-dbus-sysconf-dir=/etc/dbus-1/system.d \
+            --with-tracker-pkgconfig-version=1.0
 ```
 
 Verify that DHX2 is enabled (you need it for password authentication on recent versions of macOS, at least El Capitan):
