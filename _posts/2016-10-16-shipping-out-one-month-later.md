@@ -114,13 +114,11 @@ Sign 200 papers and prove your residence with a phone or utilities bill,
 which is apparently the standard way of doing it. Going for a swim?
 Well, certain types of swimming trunks are forbidden but there is no
 standardised vocabulary for describing swimming trunks so you just have
-to figure out which ones are ok through trial and error. Also, everybody
-showers in their bathing suits, but gender-separated. There is no
-discernible structure or scheme to the organisation of the pools, from
-what I have been able to tell. You just do your best not to collide
-with anyone, which is easier said than done, as people enter and exit
-the pool all the time, turn suddenly and change swim-styles without
-warning.
+to figure out which ones are ok through trial and error. But at least
+they gave me the rebate for residents after I dutifully showed my phone
+bill at the reception (the _de facto_ standard proof of residence). I
+may also have slammed my swimwear at the desk and asked "CECI SONT
+INTERDITS?!".
 
 ## How's Work?
 
