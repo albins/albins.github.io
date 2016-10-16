@@ -118,7 +118,7 @@ to figure out which ones are ok through trial and error. But at least
 they gave me the rebate for residents after I dutifully showed my phone
 bill at the reception (the _de facto_ standard proof of residence). I
 may also have slammed my swimwear at the desk and asked "CECI SONT
-INTERDITS?!".
+INTERDITS?!". Lucky me, they weren't.
 
 ## How's Work?
 
