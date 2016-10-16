@@ -113,13 +113,14 @@ obstinate strictness and unregulated chaos. Applying for a bank account?
 Sign 200 papers and prove your residence with a phone or utilities bill,
 which is apparently the standard way of doing it. Going for a swim?
 Well, certain types of swimming trunks are forbidden but there is no
-standardised vocabulary for describing swimming trunks so you just have to
-figure out which. Also, everybody showers in their bathing suits, but
-gender-separated. There is no discernible structure or scheme to the
-organisation of the pools, from what I have been able to discern. You
-just do your best not to collide with anyone, which is easier said than
-done, as people enter and exit the pool all the time, turn suddenly and
-changes swim-styles without warning.
+standardised vocabulary for describing swimming trunks so you just have
+to figure out which ones are ok through trial and error. Also, everybody
+showers in their bathing suits, but gender-separated. There is no
+discernible structure or scheme to the organisation of the pools, from
+what I have been able to discern. You just do your best not to collide
+with anyone, which is easier said than done, as people enter and exit
+the pool all the time, turn suddenly and changes swim-styles without
+warning.
 
 ## How's Work?
 
