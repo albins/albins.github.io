@@ -119,7 +119,7 @@ showers in their bathing suits, but gender-separated. There is no
 discernible structure or scheme to the organisation of the pools, from
 what I have been able to tell. You just do your best not to collide
 with anyone, which is easier said than done, as people enter and exit
-the pool all the time, turn suddenly and changes swim-styles without
+the pool all the time, turn suddenly and change swim-styles without
 warning.
 
 ## How's Work?
