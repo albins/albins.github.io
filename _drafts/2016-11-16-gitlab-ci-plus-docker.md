@@ -253,7 +253,7 @@ before_script:
 ```
 
 And _voilá_, you have a valid Kerberos ticket in your runner (provided
-that you have installed a working Kerberos environment. Here is an
+that you have installed a working Kerberos environment). Here is an
 example of a full CI job running on a standard CERN image (some
 non-interesting details have been removed):
 
@@ -365,5 +365,68 @@ docker::image {"${registry_path}/netapp-event-syncd":
 ```
 
 Which will fetch the image from the private registry on GitLab.
+
+The complete Puppet class for my particular application looks like this:
+
+```puppet
+class astjerna_monitor(
+  $db_path = '/var/db',
+  $netapp_host = undef,
+  $image_version = undef,
+  ) {
+
+
+    $gitlab_password_file = '/root/.gitlab_password'
+    $docker_auth_script = '/etc/docker-auth.sh'
+    $registry_path = 'gitlab-registry.cern.ch/astjerna'
+    $env_file_path = '/etc/netapp-syncd.env'
+    $keytab_location = '/root/dbstoragemon.keytab'
+
+    file { $db_path:
+      ensure => 'directory',
+    }
+
+    teigi::secret::sub_file{$docker_auth_script:
+      teigi_keys => [gitlab_password, gitlab_user],
+      template   => 'hg_playground/astjerna-docker-auth.sh.erb'
+    }
+
+    teigi::secret::sub_file{$env_file_path:
+      teigi_keys => [
+        'netapp_user',
+        'netapp_password',
+        'krb_user',
+      ],
+
+      template   => 'hg_playground/astjerna-netapp-syncd.env.erb',
+    }
+
+    teigi::secret{ 'krb_keytab':
+      key  => 'krb_keytab',
+      path => $keytab_location,
+    }
+
+    exec{'docker_auth':
+      command   => "/usr/bin/bash ${docker_auth_script}",
+      subscribe => File[$docker_auth_script]
+
+    }
+
+    docker::image {"${registry_path}/netapp-event-syncd":
+      image_tag => $image_version,
+      require   => Exec['docker_auth']
+    } ->
+
+    docker::run { 'netapp-monitor':
+      image           => "${registry_path}/netapp-event-syncd:${image_version}",
+      env_file        => $env_file_path,
+      volumes         => ['/etc/krb5.conf:/etc/krb5.conf',
+                          "${keytab_location}:${keytab_location}",
+                          "${db_path}:/var/db"],
+      restart_service => false,
+      command         => './run.sh'
+    }
+}
+```
 
 _Image from [Tyne & Wear Archives & Museums](https://www.flickr.com/photos/twm_news/25316294942/)_.
