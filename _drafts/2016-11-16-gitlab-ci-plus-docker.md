@@ -317,8 +317,9 @@ dfsdeploy:
 ```
 
 For this to work, a few variables need to be set to provide the access
-credentials for the web page you are uploading to. See the CI Web
-deployer README for more details!
+credentials for the web page you are uploading to. See
+[the CI Web deployer README](https://gitlab.cern.ch/ci-tools/ci-web-deployer/)
+for more details!
 
 ### Fetching images from GitLab's registry in Puppet using Teigi
 
