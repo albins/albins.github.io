@@ -8,8 +8,8 @@ permalink:        pretty
 
 # Setup
 title:            Albin
-#tagline:          'A collection of personal things that needed linking'
-#description:      'A collection of personal things that needed linking.'
+tagline:          ''
+description:      ''
 url:              http://albinstjerna.se
 baseurl:          /
 
