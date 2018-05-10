@@ -1,7 +1,7 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
-plugins: [jekyll-paginate, jekyll-gist, jemoji]
+plugins: [jekyll-paginate, jekyll-gist, jemoji, jekyll-github-metadata]
 
 # Permalinks
 permalink:        pretty
@@ -11,7 +11,6 @@ title:            Albin
 tagline:          ''
 description:      ''
 url:              http://albinstjerna.se
-baseurl:          /
 
 author:
   name:           'Albin Stjerna'
