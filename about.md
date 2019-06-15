@@ -3,7 +3,7 @@ layout: page
 title: About
 ---
 
-Tea-totaler, librarian, and scientist of both, information (MA) and computers
+Tea-totaler, librarian, and scientist of both information (MA) and computers
 (BS + MS). I wish I spoke lojban so that at least my internal monologues would
 be syntactically unambiguous.
 
