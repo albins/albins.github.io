@@ -4,8 +4,14 @@ title: About
 ---
 
 Tea-totaler, librarian, and scientist of both information (MA) and computers
-(BS + MS). I wish I spoke lojban so that at least my internal monologues would
-be syntactically unambiguous.
+(BS + MS). Currently pursuing PhD in Computer Science, working with solver
+technologies for string constraints with the goal of finding injection
+vulnerabilities (among other things).
+
+I wish I spoke lojban so that at least my internal monologues would be
+syntactically unambiguous.
+
+
 
 Contact information
 -------------------
