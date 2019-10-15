@@ -6,7 +6,9 @@ title: About
 Tea-totaler, librarian, and scientist of both information (MA) and computers
 (BS + MS). Currently pursuing PhD in Computer Science, working with solver
 technologies for string constraints with the goal of finding injection
-vulnerabilities (among other things).
+vulnerabilities (among other things). Sometimes in the [Polonius working
+group](https://rust-lang.github.io/compiler-team/working-groups/polonius/) of
+the Rust compiler team.
 
 I wish I spoke lojban so that at least my internal monologues would be
 syntactically unambiguous.
