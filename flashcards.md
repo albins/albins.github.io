@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Flashcards
+published: false
 ---
 
 These flascards are for University courses I am currently- or have previously- taken. They are in the [Anki](http://ankisrs.net/) format and can be imported directly into [Ankidroid](https://play.google.com/store/apps/details?id=com.ichi2.anki&hl=en) for mobile use (*strongly* recommended). If you are curious how they fit in my workflow, you can read [my post on the subject](/2015/04/21/how-i-learn-complex-things/).
