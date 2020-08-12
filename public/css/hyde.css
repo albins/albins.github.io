@@ -233,7 +233,7 @@ a.sidebar-nav-item:focus {
 
 /* Magenta */
 .theme-base-0e .sidebar {
-  background-color: #aa759f;
+    background-color: #aa759f;
 }
 .theme-base-0e .content a,
 .theme-base-0e .related-posts li a:hover {
@@ -247,4 +247,36 @@ a.sidebar-nav-item:focus {
 .theme-base-0f .content a,
 .theme-base-0f .related-posts li a:hover {
   color: #8f5536;
+}
+
+details {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+details p {
+    padding: 20px;
+}
+
+summary {
+    padding: 5px;
+    outline: none;
+}
+
+summary:hover,
+summary:focus {
+    /* background-color: #aa759f; */
+    font-weight: bolder;
+
+}
+
+details[open] summary {
+    /* background-color: #aa759f; */
+    font-weight: bolder;
+    border-bottom: 1px solid #202020;
+
+}
+
+details[open] p{
+    /* background-color: black; */
 }
