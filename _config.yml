@@ -7,19 +7,15 @@ plugins: [jekyll-paginate, jekyll-gist, jemoji, jekyll-github-metadata]
 permalink:        pretty
 
 # Setup
-title:            Albin
+title:            Amanda
 tagline:          ''
 description:      ''
-url:              http://albinstjerna.se
+url:              https://amandastjerna.se
 
 author:
-  name:           'Albin Stjerna'
-  url:            https://twitter.com/albinst
+  name:           'Amanda Stjerna'
 
 paginate:         5
 
 # Custom vars
 version:          2.1.0
-
-github:
-  repo:           https://github.com/albins/albin.github.io

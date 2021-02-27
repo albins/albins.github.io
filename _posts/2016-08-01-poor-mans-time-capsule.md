@@ -84,14 +84,14 @@ mimic model = TimeCapsule6,106
 file perm = 0664
 directory perm = 0774
 cnid scheme = dbd
-valid users = albin
+valid users = amanda
 
 [Time Machine]
 path = /media/time_machine
 time machine = yes
 ```
 
-Substitute your own user name for `albin` at `valid users`, or omit the line entirely to allow all users. Remember, this is a user account _on the server_. If you are using a Raspberry Pi, this is probably the "pi" user and "raspberry" password (but you really should create a user of your own _and_ change the password of the default account!). `mimic model` doesn't really do much, except giving your Raspberry Pi a nice Time Cube icon in Finder.
+Substitute your own user name for `amanda` at `valid users`, or omit the line entirely to allow all users. Remember, this is a user account _on the server_. If you are using a Raspberry Pi, this is probably the "pi" user and "raspberry" password (but you really should create a user of your own _and_ change the password of the default account!). `mimic model` doesn't really do much, except giving your Raspberry Pi a nice Time Cube icon in Finder.
 
 Start up netatalk:
 
