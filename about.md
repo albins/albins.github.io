@@ -14,7 +14,7 @@ the Rust compiler team.
 I wish I spoke lojban so that at least my internal monologues would be
 syntactically unambiguous.
 
-You may have previously have known me [under a different
+You may have previously known me [under a different
 name](https://amanda.systems/out).
 
 
